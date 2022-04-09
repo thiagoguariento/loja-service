@@ -11,6 +11,8 @@ class VendaController(
         private val vendaService: VendaService
 ) {
 
+    //comentario teste
+
     @Post
     fun realizarVenda(@Body vendaInput: VendaInput){
         vendaService.realizarVenda(vendaInput)
